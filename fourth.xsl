@@ -17,11 +17,11 @@
 
     <table border="2">
 
-        <tr>
+        <tr bgcolor="limegreen">
             <th colspan="4">DALDA EMPLOYEES</th>
         </tr>
 
-        <tr>
+        <tr bgcolor="teal">
             <th>NAME</th>
             <th>BLOCK</th>
             <th>LOCATION</th>
@@ -30,7 +30,7 @@
 
         <xsl:for-each select="department">
 
-        <tr>
+        <tr bgcolor="beige">
             <td><xsl:value-of select="name"></xsl:value-of></td>
             <td><xsl:value-of select="block"></xsl:value-of></td>
             <td><xsl:value-of select="location"></xsl:value-of></td>
