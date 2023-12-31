@@ -8,18 +8,17 @@
 
 <head>
 
-    <title>This is an XSL fileK</title>
+<title>This is an XSL File</title>
 
 </head>
 
 <body>
-
-    <h2>XSL WORK</h2>
+    <h2>XSL WORKFILE</h2>
 
     <table border="2">
 
         <tr>
-            <th colspan="4">DALDA EMPLOYESS</th>
+            <th colspan="4">DALDA EMPLOYEES</th>
         </tr>
 
         <tr>
@@ -32,16 +31,14 @@
         <xsl:for-each select="department">
 
         <tr>
-
             <td><xsl:value-of select="name"></xsl:value-of></td>
             <td><xsl:value-of select="block"></xsl:value-of></td>
             <td><xsl:value-of select="location"></xsl:value-of></td>
             <td><xsl:value-of select="number"></xsl:value-of></td>
+        </tr>
 
-        </tr>    
 
         </xsl:for-each>
-
 
     </table>
 
@@ -51,7 +48,5 @@
 </html>
 
 </xsl:template>
-
-
 
 </xsl:stylesheet>
