@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- PREFIX and NAME SPACING IN ROOT -->
+
+<records xmlns:e="https//www.google.com/employees" xmlns:s="https//www.google.com/employees" xmlns:w="https//www.google.com/employees">
+
+    <e:record>
+        <e:name>Adams</e:name>
+        <e:age>16</e:age>
+        <e:city>New York</e:city>
+    </e:record>
+
+    <s:record>
+        <s:name>Mitchel</s:name>
+        <s:age>18</s:age>
+        <s:city>Paris</s:city>
+    </s:record>
+
+    <w:record>
+        <w:name>Hannah</w:name>
+        <w:age>20</w:age>
+        <w:city>Lahore</w:city>
+    </w:record>
+
+</records>
